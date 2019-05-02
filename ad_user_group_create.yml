@@ -1,0 +1,5 @@
+---
+- name: add active directory users
+  hosts: windows
+  roles:
+    - win_ad_user
